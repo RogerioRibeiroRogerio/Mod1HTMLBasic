@@ -1,31 +1,28 @@
-﻿////const arrayRoger = [
-////    {
+﻿const arrayRoger = [
+    {
 
-////        "id": "session-1",
-////        "firstName": "John"
-////    },
-////    {
+        "id": "session-1",
+        "firstName": "John"
+    },
+    {
 
-////        "id": "session-2",
-////        "firstName": "Fohn"
+        "id": "session-2",
+        "firstName": "Fohn"
 
-////    },
-////    {
+    },
+    {
 
-////        "id": "session-3",
-////        "firstName": "Hohn"
+        "id": "session-3",
+        "firstName": "Hohn"
 
-////    },
-////    {
+    },
+    {
 
-////        "id": "session-4",
-////        "firstName": "rohn"
+        "id": "session-4",
+        "firstName": "rohn"
 
-////    }
-////];
-var arrayRoger = ["Banana", "Orange", "Apple", "Mango"];
-var fruits, text, fLen, i;
-fLen = arrayRoger.length;
+    }
+];
 const list = document.getElementById("exjson");
 
 // TODO: Task 2 - Get the "schedule" list element from the document
