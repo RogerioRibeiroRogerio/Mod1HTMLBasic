@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <script src="script/indexscript.js"></script>
+    <!--<script src="script/indexscript.js"></script>-->
 </head>
 <body>
 
@@ -12,7 +12,28 @@
     <p id="demo"> </p>
     <p id="demoMulti"> </p>
     <ul id="exjson"> </ul>
+    <section>
+        <div>
+            <h1>Schedule</h1>
+            <ul id="exjson"></ul>
+        </div>
+    </section>
 
+    <p id="frutas"></p>
+
+    <script>
+        var fruits, text, fLen, i;
+        fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fLen = fruits.length;
+
+        text = "<ul>";
+        for (i = 0; i < fLen; i++) {
+            text += "<li>" + fruits[i] + "</li>";
+        }
+        text += "</ul>";
+
+        document.getElementById("frutas").innerHTML = text;
+    </script>
 
     <script>
         document.getElementById("demo").innerHTML = myFunction();
@@ -24,9 +45,11 @@
         document.getElementById("demoMulti").innerHTML = myMulti(8, 8);
     </script>
 
-    <script>
+    <!--<script>
         document.getElementById("exjson").innerHTML = jsonStyle();
-            </script>
+            </script>-->
+
+    <script src="script/indexscript.js" type="text/javascript"></script>
 
 
 </body>
